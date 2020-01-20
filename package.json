@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run snowpack-refresh && npx servor --reload",
+    "snowpack-refresh": "npx snowpack"
   },
   "keywords": [],
   "author": "dielduarte",
